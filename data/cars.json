@@ -1,0 +1,18 @@
+[
+    {
+        "make": "Ford",
+        "model": "Focus"
+    },
+    {
+        "make": "Nissan",
+        "model": "Micra"
+    },
+    {
+        "make": "Vauxhall",
+        "model": "Astra"
+    },
+    {
+        "make": "Citroen",
+        "model": "AX"
+    }
+]

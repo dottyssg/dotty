@@ -1,0 +1,19 @@
+{
+    "siteName": "Dotty SSG",
+    "siteDescription": "A simple, fast, lean customizable static site generator",
+    "outputFolder": "site",
+    "collections" : [
+        "pages",
+        "posts"
+    ],
+    "templateFolder": "layouts",
+    "assets": {
+        "assetSource": "assets",
+        "assetTarget": "assets"
+    },
+    "sass": {
+        "sassSource": "sass",
+        "sassTarget": "assets/css"
+    },
+    "dataFolder": "data"
+}

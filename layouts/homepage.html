@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+{% for p in post %}
+<div class="post">
+    <h2><a href="/{{ p.permalink }}">{{ p.title }}</a></h2>
+    <h3>{{ p.date }} by {{ p.author }}</h3>
+</div>
+{% endfor %}
+
+{% endblock %}
+            
